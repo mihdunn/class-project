@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  background-color: #1a1a1a; 
+  color: #ffffff; 
+  font-family: 'Arial', sans-serif; 
+  margin: 0;
+  padding: 0;
+}
+
+
+a {
+  color: #00aaff; 
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0088cc; 
+}
+
+
+button {
+  background-color: #00aaff; 
+  color: #ffffff; 
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0088cc; /* Darker electric blue */
+}
+
+section {
+  padding: 20px;
+}
+
+
+#hero {
+  text-align: center;
+  padding: 60px 20px; 
+  background-image: url('./images/back6.jpg'); 
+  background-size: cover;
+  background-position: center;
+}
+
+
+.card {
+  background-color: #2a2a2a; 
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card h5 {
+  color: #ffffff; 
+}
+
+.card p {
+  color: #cccccc; 
+}
+
+#cart {
+  background-color: #2a2a2a; 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+@media (max-width: 768px) {
+  section {
+      padding: 10px;
+  }
+
+  button {
+      width: 100%;
+  }
+}
